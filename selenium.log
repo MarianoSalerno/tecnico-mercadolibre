@@ -5783,3 +5783,235 @@ Only local connections are allowed.
 2017-05-06 10:30:54 INFO Selenium <- {"sessionId":"102615e8bf0bf85a78a013c30ee8101c","status":0,"value":[]}
 2017-05-06 10:30:54 INFO Selenium -> DELETE session/102615e8bf0bf85a78a013c30ee8101c
 2017-05-06 10:30:55 INFO Selenium <- {"sessionId":"102615e8bf0bf85a78a013c30ee8101c","status":0,"value":null}
+2017-05-06 10:39:04 DEBUG Selenium Executing Process ["/usr/local/bin/chromedriver", "--port=9515", "--log-path=chromedriver.log", "--verbose"]
+2017-05-06 10:39:04 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5) on port 9515
+Only local connections are allowed.
+2017-05-06 10:39:04 INFO Selenium -> POST session
+2017-05-06 10:39:04 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["start-maximized","--enable-logging","--v=1","--no-sandbox"]}}}
+2017-05-06 10:39:04 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"280"}
+2017-05-06 10:39:04 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5)","userDataDir":"/tmp/.org.chromium.Chromium.cwFmYK"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"58.0.3029.96","webStorageEnabled":true}}
+2017-05-06 10:39:04 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/url
+2017-05-06 10:39:04 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/url | {"url":"http://www.mercadolibre.com.ar/"}
+2017-05-06 10:39:04 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"41"}
+2017-05-06 10:39:08 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:08 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:08 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Ingresa' or normalize-space(string(.)) = 'Ingresa') or ./@title = 'Ingresa') or .//img[./@alt = 'Ingresa'])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Ingresa' or ./@value = 'Ingresa') or ./@title = 'Ingresa')] | .//input[./@type = 'image'][./@alt = 'Ingresa'] | .//button[((((./@id = 'Ingresa' or ./@value = 'Ingresa') or ./@title = 'Ingresa') or normalize-space(string(.)) = 'Ingresa') or .//img[./@alt = 'Ingresa'])] | .//input[./@type = 'image'][./@alt = 'Ingresa']"}
+2017-05-06 10:39:08 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"587"}
+2017-05-06 10:39:08 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.37549561758102623-1"},{"ELEMENT":"0.37549561758102623-2"}]}
+2017-05-06 10:39:08 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.37549561758102623-1/displayed
+2017-05-06 10:39:08 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:08 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.37549561758102623-1/name
+2017-05-06 10:39:08 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"a"}
+2017-05-06 10:39:08 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.37549561758102623-2/displayed
+2017-05-06 10:39:08 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":false}
+2017-05-06 10:39:08 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.37549561758102623-1/click
+2017-05-06 10:39:09 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:09 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:09 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"css selector","value":"#user_id"}
+2017-05-06 10:39:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"43"}
+2017-05-06 10:39:09 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.8606866837563545-1"}]}
+2017-05-06 10:39:09 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-1/displayed
+2017-05-06 10:39:09 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:09 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-1/name
+2017-05-06 10:39:09 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:09 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-1/attribute/type
+2017-05-06 10:39:09 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"email"}
+2017-05-06 10:39:09 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-1/attribute/readonly
+2017-05-06 10:39:09 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:09 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/execute
+2017-05-06 10:39:09 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/execute | {"script":"arguments[0].value = ''","args":[{"ELEMENT":"0.8606866837563545-1"}]}
+2017-05-06 10:39:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"80"}
+2017-05-06 10:39:09 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:09 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-1/value
+2017-05-06 10:39:09 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-1/value | {"value":["TEST3JKKR44N"]}
+2017-05-06 10:39:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"26"}
+2017-05-06 10:39:10 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:10 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:10 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Continuar' or normalize-space(string(.)) = 'Continuar') or ./@title = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar')] | .//input[./@type = 'image'][./@alt = 'Continuar'] | .//button[((((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar') or normalize-space(string(.)) = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'image'][./@alt = 'Continuar']"}
+2017-05-06 10:39:10 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"615"}
+2017-05-06 10:39:10 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.8606866837563545-2"}]}
+2017-05-06 10:39:10 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-2/displayed
+2017-05-06 10:39:10 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:10 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-2/name
+2017-05-06 10:39:10 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:10 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-2/enabled
+2017-05-06 10:39:10 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:10 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.8606866837563545-2/click
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:13 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:13 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"css selector","value":"#password"}
+2017-05-06 10:39:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"44"}
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.17231025963379554-1"}]}
+2017-05-06 10:39:13 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-1/displayed
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:13 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-1/name
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:13 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-1/attribute/type
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"password"}
+2017-05-06 10:39:13 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-1/attribute/readonly
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:13 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/execute
+2017-05-06 10:39:13 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/execute | {"script":"arguments[0].value = ''","args":[{"ELEMENT":"0.17231025963379554-1"}]}
+2017-05-06 10:39:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"81"}
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:13 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-1/value
+2017-05-06 10:39:13 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-1/value | {"value":["qatest2574"]}
+2017-05-06 10:39:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"24"}
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:13 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:13 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Ingresar' or normalize-space(string(.)) = 'Ingresar') or ./@title = 'Ingresar') or .//img[./@alt = 'Ingresar'])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Ingresar' or ./@value = 'Ingresar') or ./@title = 'Ingresar')] | .//input[./@type = 'image'][./@alt = 'Ingresar'] | .//button[((((./@id = 'Ingresar' or ./@value = 'Ingresar') or ./@title = 'Ingresar') or normalize-space(string(.)) = 'Ingresar') or .//img[./@alt = 'Ingresar'])] | .//input[./@type = 'image'][./@alt = 'Ingresar']"}
+2017-05-06 10:39:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"601"}
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.17231025963379554-2"}]}
+2017-05-06 10:39:13 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-2/displayed
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:13 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-2/name
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:13 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-2/enabled
+2017-05-06 10:39:13 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:13 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.17231025963379554-2/click
+2017-05-06 10:39:15 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:15 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:15 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"css selector","value":".nav-search-input"}
+2017-05-06 10:39:15 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"52"}
+2017-05-06 10:39:15 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.7490718843860154-1"}]}
+2017-05-06 10:39:15 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-1/displayed
+2017-05-06 10:39:15 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:15 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-1/name
+2017-05-06 10:39:15 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:15 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-1/attribute/type
+2017-05-06 10:39:15 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"text"}
+2017-05-06 10:39:15 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-1/attribute/readonly
+2017-05-06 10:39:15 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:15 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/execute
+2017-05-06 10:39:15 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/execute | {"script":"arguments[0].value = ''","args":[{"ELEMENT":"0.7490718843860154-1"}]}
+2017-05-06 10:39:15 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"80"}
+2017-05-06 10:39:16 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:16 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-1/value
+2017-05-06 10:39:16 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-1/value | {"value":["item de testeo"]}
+2017-05-06 10:39:16 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"28"}
+2017-05-06 10:39:16 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:16 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:16 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"css selector","value":".nav-search-btn"}
+2017-05-06 10:39:16 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"50"}
+2017-05-06 10:39:16 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.7490718843860154-2"}]}
+2017-05-06 10:39:16 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-2/displayed
+2017-05-06 10:39:16 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:16 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.7490718843860154-2/click
+2017-05-06 10:39:18 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:18 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:18 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"css selector","value":".list-view-item-title"}
+2017-05-06 10:39:18 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"56"}
+2017-05-06 10:39:18 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.42734815445638175-1"},{"ELEMENT":"0.42734815445638175-2"},{"ELEMENT":"0.42734815445638175-3"},{"ELEMENT":"0.42734815445638175-4"},{"ELEMENT":"0.42734815445638175-5"},{"ELEMENT":"0.42734815445638175-6"},{"ELEMENT":"0.42734815445638175-7"},{"ELEMENT":"0.42734815445638175-8"},{"ELEMENT":"0.42734815445638175-9"},{"ELEMENT":"0.42734815445638175-10"},{"ELEMENT":"0.42734815445638175-11"},{"ELEMENT":"0.42734815445638175-12"},{"ELEMENT":"0.42734815445638175-13"},{"ELEMENT":"0.42734815445638175-14"},{"ELEMENT":"0.42734815445638175-15"},{"ELEMENT":"0.42734815445638175-16"},{"ELEMENT":"0.42734815445638175-17"},{"ELEMENT":"0.42734815445638175-18"},{"ELEMENT":"0.42734815445638175-19"},{"ELEMENT":"0.42734815445638175-20"},{"ELEMENT":"0.42734815445638175-21"},{"ELEMENT":"0.42734815445638175-22"},{"ELEMENT":"0.42734815445638175-23"},{"ELEMENT":"0.42734815445638175-24"},{"ELEMENT":"0.42734815445638175-25"},{"ELEMENT":"0.42734815445638175-26"},{"ELEMENT":"0.42734815445638175-27"},{"ELEMENT":"0.42734815445638175-28"},{"ELEMENT":"0.42734815445638175-29"},{"ELEMENT":"0.42734815445638175-30"},{"ELEMENT":"0.42734815445638175-31"},{"ELEMENT":"0.42734815445638175-32"},{"ELEMENT":"0.42734815445638175-33"},{"ELEMENT":"0.42734815445638175-34"},{"ELEMENT":"0.42734815445638175-35"},{"ELEMENT":"0.42734815445638175-36"},{"ELEMENT":"0.42734815445638175-37"},{"ELEMENT":"0.42734815445638175-38"},{"ELEMENT":"0.42734815445638175-39"},{"ELEMENT":"0.42734815445638175-40"},{"ELEMENT":"0.42734815445638175-41"},{"ELEMENT":"0.42734815445638175-42"},{"ELEMENT":"0.42734815445638175-43"},{"ELEMENT":"0.42734815445638175-44"},{"ELEMENT":"0.42734815445638175-45"},{"ELEMENT":"0.42734815445638175-46"},{"ELEMENT":"0.42734815445638175-47"},{"ELEMENT":"0.42734815445638175-48"},{"ELEMENT":"0.42734815445638175-49"},{"ELEMENT":"0.42734815445638175-50"},{"ELEMENT":"0.42734815445638175-51"},{"ELEMENT":"0.42734815445638175-52"}]}
+2017-05-06 10:39:18 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.42734815445638175-1/displayed
+2017-05-06 10:39:18 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:18 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.42734815445638175-1/click
+2017-05-06 10:39:20 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:20 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:20 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"css selector","value":"#BidButtonTop"}
+2017-05-06 10:39:20 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"48"}
+2017-05-06 10:39:20 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.5218780224821169-1"}]}
+2017-05-06 10:39:20 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.5218780224821169-1/displayed
+2017-05-06 10:39:20 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:20 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.5218780224821169-1/click
+2017-05-06 10:39:37 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:37 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:37 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Continuar' or normalize-space(string(.)) = 'Continuar') or ./@title = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar')] | .//input[./@type = 'image'][./@alt = 'Continuar'] | .//button[((((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar') or normalize-space(string(.)) = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'image'][./@alt = 'Continuar']"}
+2017-05-06 10:39:37 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"615"}
+2017-05-06 10:39:37 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.8879947100103756-1"}]}
+2017-05-06 10:39:37 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8879947100103756-1/displayed
+2017-05-06 10:39:37 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:37 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8879947100103756-1/name
+2017-05-06 10:39:37 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:37 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.8879947100103756-1/enabled
+2017-05-06 10:39:37 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:37 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.8879947100103756-1/click
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:39 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:39 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Continuar' or normalize-space(string(.)) = 'Continuar') or ./@title = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar')] | .//input[./@type = 'image'][./@alt = 'Continuar'] | .//button[((((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar') or normalize-space(string(.)) = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'image'][./@alt = 'Continuar']"}
+2017-05-06 10:39:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"615"}
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.06828825623443424-1"}]}
+2017-05-06 10:39:39 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.06828825623443424-1/displayed
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:39 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.06828825623443424-1/name
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:39 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.06828825623443424-1/enabled
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":false}
+2017-05-06 10:39:39 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:39 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Continuar' or contains(normalize-space(string(.)), 'Continuar')) or contains(./@title, 'Continuar')) or .//img[contains(./@alt, 'Continuar')])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Continuar' or contains(./@value, 'Continuar')) or contains(./@title, 'Continuar'))] | .//input[./@type = 'image'][contains(./@alt, 'Continuar')] | .//button[((((./@id = 'Continuar' or contains(./@value, 'Continuar')) or contains(./@title, 'Continuar')) or contains(normalize-space(string(.)), 'Continuar')) or .//img[contains(./@alt, 'Continuar')])] | .//input[./@type = 'image'][contains(./@alt, 'Continuar')]"}
+2017-05-06 10:39:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"714"}
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.06828825623443424-1"}]}
+2017-05-06 10:39:39 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.06828825623443424-1/displayed
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:39 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.06828825623443424-1/name
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:39 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.06828825623443424-1/enabled
+2017-05-06 10:39:39 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:39 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.06828825623443424-1/click
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:41 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:41 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//select[(((./@id = 'paymentMethodSelect' or ./@name = 'paymentMethodSelect') or ./@placeholder = 'paymentMethodSelect') or ./@id = //label[normalize-space(string(.)) = 'paymentMethodSelect']/@for)] | .//label[normalize-space(string(.)) = 'paymentMethodSelect']//.//select"}
+2017-05-06 10:39:41 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"301"}
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.91550712251081-1"}]}
+2017-05-06 10:39:41 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-1/displayed
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:41 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-1/enabled
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:41 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-1/elements
+2017-05-06 10:39:41 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-1/elements | {"using":"xpath","value":".//option[normalize-space(string(.)) = 'Rapipago']"}
+2017-05-06 10:39:41 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"78"}
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.91550712251081-2"}]}
+2017-05-06 10:39:41 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-2/displayed
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:41 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-2/enabled
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:41 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-2/selected
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":false}
+2017-05-06 10:39:41 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-2/enabled
+2017-05-06 10:39:41 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:41 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-2/click
+2017-05-06 10:39:42 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:42 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:42 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Continuar' or normalize-space(string(.)) = 'Continuar') or ./@title = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar')] | .//input[./@type = 'image'][./@alt = 'Continuar'] | .//button[((((./@id = 'Continuar' or ./@value = 'Continuar') or ./@title = 'Continuar') or normalize-space(string(.)) = 'Continuar') or .//img[./@alt = 'Continuar'])] | .//input[./@type = 'image'][./@alt = 'Continuar']"}
+2017-05-06 10:39:42 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"615"}
+2017-05-06 10:39:42 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.91550712251081-3"}]}
+2017-05-06 10:39:42 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-3/displayed
+2017-05-06 10:39:42 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:42 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-3/name
+2017-05-06 10:39:42 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:42 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-3/enabled
+2017-05-06 10:39:42 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:42 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.91550712251081-3/click
+2017-05-06 10:39:43 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:43 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:43 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":".//a[./@href][(((./@id = 'Confirmar' or normalize-space(string(.)) = 'Confirmar') or ./@title = 'Confirmar') or .//img[./@alt = 'Confirmar'])] | .//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Confirmar' or ./@value = 'Confirmar') or ./@title = 'Confirmar')] | .//input[./@type = 'image'][./@alt = 'Confirmar'] | .//button[((((./@id = 'Confirmar' or ./@value = 'Confirmar') or ./@title = 'Confirmar') or normalize-space(string(.)) = 'Confirmar') or .//img[./@alt = 'Confirmar'])] | .//input[./@type = 'image'][./@alt = 'Confirmar']"}
+2017-05-06 10:39:43 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"615"}
+2017-05-06 10:39:43 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.6554222296663317-1"}]}
+2017-05-06 10:39:43 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.6554222296663317-1/displayed
+2017-05-06 10:39:43 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:43 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.6554222296663317-1/name
+2017-05-06 10:39:43 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"input"}
+2017-05-06 10:39:43 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.6554222296663317-1/enabled
+2017-05-06 10:39:43 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:43 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/element/0.6554222296663317-1/click
+2017-05-06 10:39:46 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:46 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:46 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":"/html"}
+2017-05-06 10:39:46 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2017-05-06 10:39:46 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[{"ELEMENT":"0.13596963702963172-1"}]}
+2017-05-06 10:39:46 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.13596963702963172-1/displayed
+2017-05-06 10:39:46 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":true}
+2017-05-06 10:39:46 INFO Selenium -> GET session/d1475d71386426ad8f46954bc64f6546/element/0.13596963702963172-1/text
+2017-05-06 10:39:46 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":"MercadoLibre - Donde compras y vendes de todo\nTEST3JKKR44N\n$\nSolo te falta pagar $ 10000 en Rapipago\n¡Apúrate! No te reservaremos stock hasta que el pago se acredite.\n¿Quieres ver tu factura?\nTambién te la enviamos por e-mail.\nTe pedirán este número:\n27153 05004\nMapa de sucursales\nVer detalle de la compra (Nº 1367917291)\n© 1999-2017 MercadoLibre S.R.L. Términos y condiciones Políticas de privacidad Ayuda"}
+2017-05-06 10:39:46 INFO Selenium -> DELETE session/d1475d71386426ad8f46954bc64f6546/cookie
+2017-05-06 10:39:50 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:50 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/url
+2017-05-06 10:39:50 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/url | {"url":"about:blank"}
+2017-05-06 10:39:50 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"21"}
+2017-05-06 10:39:50 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
+2017-05-06 10:39:50 INFO Selenium -> POST session/d1475d71386426ad8f46954bc64f6546/elements
+2017-05-06 10:39:50 INFO Selenium    >>> http://127.0.0.1:9515/session/d1475d71386426ad8f46954bc64f6546/elements | {"using":"xpath","value":"/html/body/*"}
+2017-05-06 10:39:50 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"40"}
+2017-05-06 10:39:50 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":[]}
+2017-05-06 10:39:50 INFO Selenium -> DELETE session/d1475d71386426ad8f46954bc64f6546
+2017-05-06 10:39:50 INFO Selenium <- {"sessionId":"d1475d71386426ad8f46954bc64f6546","status":0,"value":null}
