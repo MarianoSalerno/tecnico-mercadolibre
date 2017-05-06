@@ -1,4 +1,4 @@
-RSpec.describe "Examen tecnico mercadolibre", type: :feature, js: true do
+RSpec.describe "webdriver automation(medium)", type: :feature, js: true do
     it "Proceso de compra" do
       visit "http://www.mercadolibre.com.ar/"
       login
