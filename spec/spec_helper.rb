@@ -1,5 +1,6 @@
 require 'capybara/rspec'
 require 'selenium-webdriver'
+require 'pry'
 
 Selenium::WebDriver.logger.level = :debug
 Selenium::WebDriver.logger.output = 'selenium.log'
@@ -10,7 +11,7 @@ Capybara.register_driver :selenium do |app|
   Capybara::Selenium::Driver.new(app, browser: :chrome, "args": [ "start-maximized", "--enable-logging", "--v=1", "--no-sandbox"], driver_opts: {log_path: "chromedriver.log", verbose: true})
 end
 
-Capybara.default_max_wait_time = 40
+Capybara.default_max_wait_time = 20
 
 Capybara.default_driver = :selenium
 Capybara.javascript_driver = :selenium
